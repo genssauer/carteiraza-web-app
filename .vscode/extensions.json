@@ -3,6 +3,8 @@
     "nrwl.angular-console",
     "esbenp.prettier-vscode",
     "dbaeumer.vscode-eslint",
-    "firsttris.vscode-jest-runner"
+    "firsttris.vscode-jest-runner",
+    "eternal.ts-js-import-sorter",
+    "adam-bender.commit-message-editor"
   ]
 }
