@@ -2,7 +2,7 @@
   "name": "web-app",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
-  "prefix": "app",
+  "prefix": "cza",
   "sourceRoot": "apps/web-app/src",
   "tags": [],
   "targets": {
@@ -22,7 +22,10 @@
             "input": "apps/web-app/public"
           }
         ],
-        "styles": ["apps/web-app/src/styles.scss"],
+        "styles": [
+          "apps/web-app/src/styles.scss",
+          "node_modules/ng-zorro-antd/ng-zorro-antd.min.css"
+        ],
         "scripts": [],
         "server": "apps/web-app/src/main.server.ts",
         "ssr": {
