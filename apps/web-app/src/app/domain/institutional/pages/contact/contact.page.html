@@ -1,1 +1,6 @@
-<p>contact works!</p>
+<ng-container *transloco="let t; prefix: 'DOMAIN.INSTITUTIONAL.PAGES.CONTACT'">
+  <h1>{{ t('TITLE') }}</h1>
+
+  <button nz-button nzType="primary" (click)="changeLang('es')">Español</button>
+  <button nz-button nzType="primary" (click)="changeLang('en')">Ingles</button>
+</ng-container>

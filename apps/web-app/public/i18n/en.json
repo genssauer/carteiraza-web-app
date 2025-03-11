@@ -1,1 +1,20 @@
-{}
+{
+  "DOMAIN": {
+    "INSTITUTIONAL": {
+      "PAGES": {
+        "CONTACT": {
+          "TITLE": "Contact"
+        },
+        "PRIVACY_POLICY": {
+          "TITLE": "Privacy policy"
+        },
+        "SUPPORT": {
+          "TITLE": "Support"
+        },
+        "TERMS_OF_USE": {
+          "TITLE": "Terms of use"
+        }
+      }
+    }
+  }
+}
